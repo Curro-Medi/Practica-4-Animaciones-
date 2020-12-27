@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/frag1"
+            android:textSize="20dp"
+            android:layout_marginLeft="7dp"
+            android:id="@+id/titulo"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/aciertos"
+            android:id="@+id/aciertos"
+            android:layout_marginLeft="190dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="4"
+            android:columnCount="3"
+            android:paddingLeft="60dp"
+            android:paddingTop="70dp"
+            android:paddingBottom="200dp"
+            android:paddingRight="60dp"
+            android:id="@+id/grid"
+
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/IBtn1"
+
+                ></ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/IBtn2"
+
+                ></ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/IBtn3"
+
+                ></ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/IBtn4"
+
+                ></ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/IBtn5"
+
+                ></ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/IBtn6"
+
+                ></ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/IBtn7"
+
+                ></ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/IBtn8"
+
+                ></ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/IBtn9"
+
+                ></ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/IBtn10"
+
+                ></ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/IBtn11"
+
+                ></ImageView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/IBtn12"
+
+                ></ImageView>
+
+
+        </GridLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="300dp"
+            android:id="@+id/btnResetear"
+            android:enabled="true"
+            android:text="Resetear"
+            android:textColor="@color/negroo"
+            >
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEmpezar"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="20dp"
+            android:enabled="true"
+            android:text="Empezar"
+            android:textColor="@color/negroo"
+            ></Button>
+
+    </RelativeLayout>
+</FrameLayout>

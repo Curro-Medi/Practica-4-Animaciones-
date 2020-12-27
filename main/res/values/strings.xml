@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Practica 4</string>
+    <string name="frag1">Numero de aciertos</string>
+    <string name="frag2">Fragmento #2</string>
+    <string name="frag3">Fragmento #3</string>
+    <string name="frag4">Fragmento #4</string>
+    <string name="btnAcabar">Acabar</string>
+    <string name="aciertos">0</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+
+</resources>
